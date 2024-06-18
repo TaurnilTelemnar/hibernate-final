@@ -101,7 +101,6 @@ public class Main {
         properties.put(Environment.USER, "root");
         properties.put(Environment.PASS, "mysql");
         properties.put(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread");
-        properties.put(Environment.HBM2DDL_AUTO, "validate");
         properties.put(Environment.STATEMENT_BATCH_SIZE, "100");
 
         sessionFactory = new Configuration()
